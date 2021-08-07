@@ -27,7 +27,7 @@ def triangle():
 def circle():
     engine.speak("Enter the radius of circle ")
     radius=int(input("Enter the radius of the circle "))
-    result=3.14*2*radius
+    result=3.14*radius*radius
     engine.speak("The area of the circle is")
     print("The area of the circle is ",result)
     engine.speak(result)
